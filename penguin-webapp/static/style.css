@@ -23,6 +23,7 @@ form {
 label, input {
     display: block;
     margin-bottom: 5px;
+    margin: auto;
 }
 
 button {
@@ -37,4 +38,17 @@ button {
 .result {
     margin-top: 10px;
     font-weight: bold;
+}
+
+body{
+    transform: scale(1.5);
+    overflow: hidden;
+}
+
+.pcon{
+    background-color: turquoise;
+    margin-top: 0.5rem;
+    padding: 0.001rem;
+    border-radius: 25%;
+    border: 1px solid black;
 }
